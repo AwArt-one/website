@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Awart Landing Page</title>
+    <meta property="og:title" content="Awart Landing Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header data-thq="thq-navbar" class="home-navbar-interactive">
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="home-desktop-menu"
+          >
+            <img
+              alt="logo"
+              src="public/playground_assets/logo_short-1500w.png"
+              class="home-logo"
+            />
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="home-nav"
+            >
+              <a href="#OurMission" class="home-link">Mission</a>
+              <a href="#ThePlatform" class="home-link01">Plateform</a>
+              <a href="#OurPortfolio" class="home-link02">Portfolio</a>
+              <a href="#UseCases" class="home-link03">Uses cases</a>
+              <a href="#Roadmap" class="home-link04">Roadmap</a>
+              <a href="#Community" class="home-link05">Community</a>
+            </nav>
+          </div>
+          <div data-thq="thq-navbar-btn-group" class="home-btn-group"></div>
+          <div data-thq="thq-burger-menu" class="home-burger-menu"></div>
+          <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="home-nav1"
+            >
+              <div class="home-container01">
+                <img
+                  alt="image"
+                  src="public/playground_assets/logo_blacklongsloggan-1500h.png"
+                  class="home-image"
+                />
+                <div data-thq="thq-close-menu" class="home-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="home-icon">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="home-nav2"
+              >
+                <a href="#OurMission" class="home-link06">Mission</a>
+                <a href="#ThePlatform" class="home-link07">Platform</a>
+                <a href="#OurPortfolio" class="home-link08">Portfolio</a>
+                <a href="#UseCases" class="home-link09">Use cases</a>
+                <a href="#Roadmap" class="home-link10">Roadmap</a>
+                <a href="#Community" class="home-link11">Community</a>
+              </nav>
+            </div>
+            <div class="home-icon-group">
+              <svg viewBox="0 0 877.7142857142857 1024" class="home-icon02">
+                <path
+                  d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
+                ></path></svg
+              ><svg viewBox="0 0 1024 1024" class="home-icon04">
+                <path
+                  d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"
+                ></path></svg
+              ><svg viewBox="0 0 602.2582857142856 1024" class="home-icon06">
+                <path
+                  d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon08">
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </header>
+        <div class="home-hero">
+          <h1 class="home-text">WELCOME TO AWART</h1>
+          <span class="home-text001">
+            <span class="home-text002">The Galaxy of</span>
+            <span></span>
+            <span class="home-text004">Champions</span>
+            <span></span>
+            <span></span>
+          </span>
+          <span class="home-text007">
+            <span>
+              Awart is shaping the future of exclusive digital awards creation,
+              distribution and ownership.
+            </span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <section id="OurMission" class="home-our-mission">
+          <h1 class="home-text011">Our mission</h1>
+          <span class="home-text012">
+            <span class="home-text013">
+              Improve delivery and utility of awards
+            </span>
+            <span></span>
+            <span></span>
+          </span>
+          <span class="home-text016">
+            <span>We strive to make the current (outdated) process</span>
+            <span class="home-text018">
+              flexible, faster and more useful in the long run
+            </span>
+            <span>through our</span>
+            <span class="home-text020">
+              high value-added platform and services.
+            </span>
+            <span></span>
+            <span></span>
+          </span>
+          <div class="home-container02">
+            <div class="home-step">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-kw8m.svg"
+                class="home-pasted-image"
+              />
+              <span class="home-text023">
+                <span>Contract definition</span>
+                <br />
+              </span>
+            </div>
+            <div class="home-step01">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-t024.svg"
+                class="home-pasted-image01"
+              />
+              <span class="home-text026">
+                <span>Design development</span>
+                <br />
+              </span>
+            </div>
+            <div class="home-step02">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-hrzv.svg"
+                class="home-pasted-image02"
+              />
+              <span class="home-text029">
+                <span>Digital delivery</span>
+                <br />
+              </span>
+            </div>
+            <div class="home-step03">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-cqrh.svg"
+                class="home-pasted-image03"
+              />
+              <span class="home-text032">
+                <span>visible and secured</span>
+                <br />
+              </span>
+            </div>
+            <div class="home-step04">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-7gb.svg"
+                class="home-pasted-image04"
+              />
+              <span class="home-text035">
+                <span>shareable on social media</span>
+                <br />
+              </span>
+            </div>
+            <img
+              alt="image"
+              src="public/playground_assets/logo_short-1500w.png"
+              class="home-image1"
+            />
+          </div>
+          <div class="home-steps">
+            <div class="home-container03">
+              <div class="home-container04">
+                <div class="home-step05">
+                  <img
+                    alt="pastedImage"
+                    src="public/playground_assets/pastedimage-wluk.svg"
+                    class="home-pasted-image05"
+                  />
+                  <span class="home-text038">
+                    <span>High quality</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+              <div class="home-container05">
+                <div class="home-step06">
+                  <img
+                    alt="pastedImage"
+                    src="public/playground_assets/pastedimage-q248.svg"
+                    class="home-pasted-image06"
+                  />
+                  <span class="home-text041">
+                    <span>Personalization</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+              <div class="home-container06">
+                <div class="home-step07">
+                  <img
+                    alt="pastedImage"
+                    src="public/playground_assets/pastedimage-ve5.svg"
+                    class="home-pasted-image07"
+                  />
+                  <span class="home-text044">
+                    <span>unprecedented VISIBILITY</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+              <div class="home-container07">
+                <div class="home-step08">
+                  <img
+                    alt="pastedImage"
+                    src="public/playground_assets/pastedimage-nz4.svg"
+                    class="home-pasted-image08"
+                  />
+                  <span class="home-text047">
+                    <span>profitable</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="ThePlatform" class="home-the-platform">
+          <h1 class="home-text050">The platform</h1>
+          <span class="home-text051">Be proud of your achievements</span>
+          <span class="home-text052 list-item">
+            <span>Consolidate, from now on, your prize list on a</span>
+            <span class="home-text054">single platform.</span>
+            <span></span>
+            <span></span>
+          </span>
+          <span class="home-text057 list-item">
+            <span class="home-text058">Certify your future trophies</span>
+            <span>thanks to new technologies.</span>
+            <span></span>
+          </span>
+          <span class="home-text061 list-item">
+            <span class="home-text062">Share</span>
+            <span>your new trophies on different</span>
+            <span class="home-text064">social networks</span>
+            <span>.</span>
+          </span>
+          <span class="home-text066 list-item">
+            <span>Give your fans the opportunity to</span>
+            <span class="home-text068">follow</span>
+            <span>you,</span>
+            <span class="home-text070">acquire</span>
+            <span>rare collectors and</span>
+            <span class="home-text072">enjoy exclusive rewards</span>
+            <span>.</span>
+            <span></span>
+            <span></span>
+          </span>
+          <img
+            alt="image"
+            src="public/playground_assets/dapp1-1400w.jpg"
+            class="home-image2"
+          />
+          <div class="home-container08"></div>
+        </section>
+        <section class="home-hockey-emotion"></section>
+        <section id="OurPortfolio" class="home-our-portfolio">
+          <div class="home-container09">
+            <div class="home-container10">
+              <div class="home-features">
+                <h1 class="home-text076">Our portfolio</h1>
+                <span class="home-text077">
+                  Get the best quality and customization
+                </span>
+                <span class="home-text078">
+                  <span>We know how much effort goes into your success!</span>
+                  <br />
+                  <span>
+                    They deserve special attention so that you can remember
+                    these emotional moments. That's why
+                  </span>
+                  <span class="home-text082">
+                    we focused on creating an exceptional and exclusive design
+                    for each digital trophy.
+                  </span>
+                  <span></span>
+                  <span></span>
+                </span>
+                <span class="home-text085">
+                  <span>What champions deserve!</span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </div>
+              <div class="home-features1">
+                <video
+                  src="public/playground_assets/testtrophy.mp4"
+                  loop=""
+                  poster="public/playground_assets/motorsport_3-500w.png"
+                  preload="auto"
+                  controls=""
+                  class="home-video"
+                ></video>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="UseCases" class="home-use-cases">
+          <h1 class="home-text089">USE CASES</h1>
+          <span class="home-text090">
+            <span>The sky is the limit</span>
+            <span></span>
+            <span></span>
+          </span>
+          <span class="home-text094">
+            <span>
+              Designed for athletes but not only ... All fields, all levels,
+              unique or cyclical, rewarding participants has its place at
+              Awart.&nbsp;
+            </span>
+            <span class="home-text096">Be a pioneer</span>
+            <span>in your field and</span>
+            <span class="home-text098">contact us</span>
+            <span>
+              for more information! Many projects are currently under
+              development,
+            </span>
+            <span class="home-text100">all we need is you</span>
+            <span>!</span>
+            <span></span>
+            <span></span>
+          </span>
+          <div class="home-steps1">
+            <div class="home-container11">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-q6ge.svg"
+                class="home-pasted-image09"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-0zh7.svg"
+                class="home-pasted-image10"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-06de.svg"
+                class="home-pasted-image11"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-fqlg.svg"
+                class="home-pasted-image12"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-lmxk.svg"
+                class="home-pasted-image13"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-r4su.svg"
+                class="home-pasted-image14"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-3wa5.svg"
+                class="home-pasted-image15"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-ux7.svg"
+                class="home-pasted-image16"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-mll7.svg"
+                class="home-pasted-image17"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-bxe.svg"
+                class="home-pasted-image18"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-241.svg"
+                class="home-pasted-image19"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-61gh.svg"
+                class="home-pasted-image20"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-h8ze.svg"
+                class="home-pasted-image21"
+              />
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-elm.svg"
+                class="home-pasted-image22"
+              />
+            </div>
+          </div>
+          <h1 class="home-text104">And more ....</h1>
+        </section>
+        <section id="Roadmap" class="home-roadmap">
+          <h1 class="home-text105">
+            <span class="home-text106">Roadmap</span>
+            <br />
+          </h1>
+          <span class="home-text108">Unlock your potential</span>
+          <span class="home-text109">
+            Start planning your path to success with our roadmap.
+          </span>
+          <div class="home-container12">
+            <div class="home-container13">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-5bk.svg"
+                class="home-pasted-image23"
+              />
+              <span class="home-text110">
+                <span>05.2023</span>
+                <br />
+              </span>
+            </div>
+            <div class="home-container14">
+              <span class="home-text113">Platform release</span>
+              <span class="home-text114">
+                <span>Trophy ready for any championship</span>
+                <br />
+              </span>
+            </div>
+          </div>
+          <div class="home-container15">
+            <div class="home-container16">
+              <span class="home-text117">Fans engagement</span>
+              <span class="home-text118">
+                <span>
+                  Implementing the fan voting for the athlete of the day and for
+                  the best award design
+                </span>
+                <br />
+              </span>
+            </div>
+            <div class="home-container17">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-o7gg.svg"
+                class="home-pasted-image24"
+              />
+              <span class="home-text121">
+                <span>Q3.2023</span>
+                <br />
+              </span>
+            </div>
+          </div>
+          <div class="home-container18">
+            <div class="home-container19">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-amvb.svg"
+                class="home-pasted-image25"
+              />
+              <span class="home-text124">
+                <span>Q4.2023</span>
+                <br />
+              </span>
+            </div>
+            <div class="home-container20">
+              <span class="home-text127">Collectors sales</span>
+              <span class="home-text128">
+                <span>Marketplace and royalties management</span>
+                <br />
+              </span>
+            </div>
+          </div>
+          <div class="home-container21">
+            <div class="home-container22">
+              <span class="home-text131">Historical trophies</span>
+              <span class="home-text132">
+                <span>
+                  Creation of trophies won in the past and possibility to sell
+                  them as a collector
+                </span>
+                <br />
+              </span>
+            </div>
+            <div class="home-container23">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-nni.svg"
+                class="home-pasted-image26"
+              />
+              <span class="home-text135">
+                <span>Q2.2024</span>
+                <br />
+              </span>
+            </div>
+          </div>
+          <div class="home-container24">
+            <div class="home-container25">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-2zbc.svg"
+                class="home-pasted-image27"
+              />
+              <span class="home-text138">
+                <span>Q4.2025</span>
+                <br />
+              </span>
+            </div>
+            <div class="home-container26">
+              <span class="home-text141">Play to earn</span>
+              <span class="home-text142">
+                <span>
+                  Fans will earn points based on their NFT and team results
+                </span>
+                <br />
+              </span>
+            </div>
+          </div>
+        </section>
+        <section id="Community" class="home-community">
+          <div class="home-container27">
+            <img
+              alt="image"
+              src="public/playground_assets/logo_short-1500w.png"
+              class="home-image3"
+            />
+          </div>
+          <div class="home-container28">
+            <div class="home-features2">
+              <h1 class="home-text145">Community</h1>
+              <span class="home-text146">Contact us!</span>
+              <div class="home-container29">
+                <a
+                  href="mailto:contact@awart.one?subject=Get more information about AwArt"
+                  class="home-link12"
+                >
+                  <div class="home-container30">
+                    <div class="home-step09">
+                      <img
+                        alt="pastedImage"
+                        src="public/playground_assets/pastedimage-arrr.svg"
+                        class="home-pasted-image28"
+                      />
+                      <span class="home-text147">
+                        <span class="home-text148">To get</span>
+                        <span></span>
+                        <span class="home-text150">more information</span>
+                        <br />
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="home-container31">
+                <a
+                  href="mailto:contact@awart.one?subject=Interested to be an AwArt investor"
+                  class="home-link13"
+                >
+                  <div class="home-container32">
+                    <div class="home-step10">
+                      <img
+                        alt="pastedImage"
+                        src="public/playground_assets/pastedimage-p7t.svg"
+                        class="home-pasted-image29"
+                      />
+                      <span class="home-text152">
+                        <span class="home-text153">Build the future as</span>
+                        <span></span>
+                        <span class="home-text155">an investor</span>
+                        <br />
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="home-container33">
+                <a
+                  href="mailto:contact@awart.one?subject=Interested to be an AwArt ambassador"
+                  class="home-link14"
+                >
+                  <div class="home-container34">
+                    <div class="home-step11">
+                      <img
+                        alt="pastedImage"
+                        src="public/playground_assets/pastedimage-mylo.svg"
+                        class="home-pasted-image30"
+                      />
+                      <span class="home-text157">
+                        <span class="home-text158">Spread the message as</span>
+                        <span></span>
+                        <span class="home-text160">an ambassador</span>
+                        <br />
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="home-container35">
+                <a
+                  href="mailto:contact@awart.one?subject=Interested to be an Awart designer"
+                  class="home-link15"
+                >
+                  <div class="home-container36">
+                    <div class="home-step12">
+                      <img
+                        alt="pastedImage"
+                        src="public/playground_assets/pastedimage-bp9r.svg"
+                        class="home-pasted-image31"
+                      />
+                      <span class="home-text162">
+                        <span class="home-text163">
+                          Create the incredible as
+                        </span>
+                        <span></span>
+                        <span class="home-text165">a designer</span>
+                        <br />
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="home-step13">
+                <div class="home-container37">
+                  <h1 class="home-text167">and stay tuned:</h1>
+                  <div class="home-icon-group1">
+                    <a
+                      href="https://twitter.com/awart_one"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link16"
+                    >
+                      <img
+                        alt="pastedImage"
+                        src="public/playground_assets/pastedimage-4cc.svg"
+                        class="home-pasted-image32"
+                      />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/awart/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link17"
+                    >
+                      <img
+                        alt="pastedImage"
+                        src="public/playground_assets/pastedimage-amgb.svg"
+                        class="home-pasted-image33"
+                      />
+                    </a>
+                    <a
+                      href="https://www.youtube.com/@awart_one"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link18"
+                    >
+                      <img
+                        alt="pastedImage"
+                        src="public/playground_assets/pastedimage-8ssr.svg"
+                        class="home-pasted-image34"
+                      />
+                    </a>
+                    <a
+                      href="https://www.facebook.com/awart.ch"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link19"
+                    >
+                      <img
+                        alt="pastedImage"
+                        src="public/playground_assets/pastedimage-7hcm.svg"
+                        class="home-pasted-image35"
+                      />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/awart_one/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link20"
+                    >
+                      <img
+                        alt="pastedImage"
+                        src="public/playground_assets/pastedimage-bdxq.svg"
+                        class="home-pasted-image36"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer id="Footer" class="home-footer">
+          <span class="home-text168">© 2023 AwArt, All Rights Reserved.</span>
+        </footer>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
