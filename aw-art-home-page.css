@@ -1,0 +1,3874 @@
+.aw-art-home-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-black);
+}
+.aw-art-home-page-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-black);
+}
+.aw-art-home-page-desktop-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aw-art-home-page-logo {
+  width: 10rem;
+  margin-right: 5em;
+}
+.aw-art-home-page-nav {
+  flex: 0 0 auto;
+  color: var(--dl-color-gray-white);
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+}
+.aw-art-home-page-link {
+  font-size: 25px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-left: 2.6em;
+  margin-right: 2.6em;
+  text-decoration: none;
+}
+.aw-art-home-page-link01 {
+  font-size: 25px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-left: 2.6em;
+  margin-right: 2.6em;
+  text-decoration: none;
+}
+.aw-art-home-page-link02 {
+  font-size: 25px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-left: 2.6em;
+  margin-right: 2.6em;
+  text-decoration: none;
+}
+.aw-art-home-page-link03 {
+  font-size: 25px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-left: 2.6em;
+  margin-right: 2.6em;
+  text-decoration: none;
+}
+.aw-art-home-page-link04 {
+  font-size: 25px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-left: 2.6em;
+  margin-right: 2.6em;
+  text-decoration: none;
+}
+.aw-art-home-page-link05 {
+  font-size: 25px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-left: 2.6em;
+  margin-right: 2.6em;
+  text-decoration: none;
+}
+.aw-art-home-page-link06 {
+  color: var(--dl-color-gray-white);
+  font-size: 25px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-left: 2.6em;
+  text-decoration: none;
+}
+.aw-art-home-page-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.aw-art-home-page-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.aw-art-home-page-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.aw-art-home-page-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.aw-art-home-page-container01 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.aw-art-home-page-image {
+  height: 2rem;
+}
+.aw-art-home-page-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aw-art-home-page-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.aw-art-home-page-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.aw-art-home-page-link07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.aw-art-home-page-link08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.aw-art-home-page-link09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.aw-art-home-page-link10 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.aw-art-home-page-link11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.aw-art-home-page-link12 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.aw-art-home-page-icon-group {
+  display: flex;
+}
+.aw-art-home-page-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.aw-art-home-page-icon04 {
+  width: 24px;
+  height: 24px;
+}
+.aw-art-home-page-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.aw-art-home-page-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-hero {
+  width: 100%;
+  height: 1518px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/playground_assets/background_constellation-1600h.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.aw-art-home-page-title-subtitle {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/background_constellation-1600h.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.aw-art-home-page-text {
+  color: var(--dl-color-awart-stronggrey);
+  font-size: 30px;
+  text-align: center;
+  font-family: Orbitron;
+  margin-right: var(--dl-space-space-halfunit);
+}
+.aw-art-home-page-image1 {
+  width: 54px;
+  height: 50px;
+  object-fit: cover;
+}
+.aw-art-home-page-title-subtitle1 {
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/playground_assets/background_constellation-1600h.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.aw-art-home-page-text001 {
+  width: 70%;
+  font-size: 175px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-text002 {
+  color: var(--dl-color-gray-white);
+}
+.aw-art-home-page-text004 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-text007 {
+  color: var(--dl-color-gray-white);
+  width: 80%;
+  font-size: 35px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-our-mission {
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  flex-direction: column;
+}
+.aw-art-home-page-text011 {
+  color: var(--dl-color-awart-stronggrey);
+  width: 80%;
+  font-size: 30px;
+  text-align: center;
+  font-family: Orbitron;
+  padding-top: 0px;
+  text-transform: uppercase;
+}
+.aw-art-home-page-text012 {
+  width: 80%;
+  font-size: 75px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-text013 {
+  color: var(--dl-color-gray-white);
+}
+.aw-art-home-page-text016 {
+  color: var(--dl-color-gray-white);
+  width: 70%;
+  font-size: 35px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.aw-art-home-page-text018 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-text020 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-container02 {
+  width: 75%;
+  height: 1308px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/orionnebula-1400h.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.aw-art-home-page-step {
+  top: 70px;
+  left: var(--dl-space-space-halfunit);
+  right: var(--dl-space-space-halfunit);
+  width: 20em;
+  height: 18em;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-pasted-image {
+  width: 100px;
+}
+.aw-art-home-page-text023 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 30px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.aw-art-home-page-step01 {
+  top: 250px;
+  left: 650px;
+  right: 0px;
+  width: 20em;
+  height: 18em;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-pasted-image01 {
+  width: 100px;
+}
+.aw-art-home-page-text026 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 30px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.aw-art-home-page-step02 {
+  top: 500px;
+  left: 1200px;
+  right: var(--dl-space-space-halfunit);
+  width: 20em;
+  height: 18em;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-pasted-image02 {
+  width: 100px;
+}
+.aw-art-home-page-text029 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 30px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.aw-art-home-page-step03 {
+  top: 750px;
+  left: 650px;
+  right: 0px;
+  width: 20em;
+  height: 18em;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-pasted-image03 {
+  width: 100px;
+}
+.aw-art-home-page-text032 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 30px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.aw-art-home-page-step04 {
+  top: 1000px;
+  left: var(--dl-space-space-halfunit);
+  right: var(--dl-space-space-halfunit);
+  width: 20em;
+  height: 18em;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-pasted-image04 {
+  width: 100px;
+}
+.aw-art-home-page-text035 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 30px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.aw-art-home-page-image2 {
+  width: 500px;
+  height: 500px;
+  align-self: center;
+  object-fit: cover;
+  margin-right: 15em;
+}
+.aw-art-home-page-steps {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-container03 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-container04 {
+  display: flex;
+  margin-top: 1em;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-step05 {
+  width: 27em;
+  height: 25em;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #141414;
+}
+.aw-art-home-page-pasted-image05 {
+  width: 120px;
+}
+.aw-art-home-page-text038 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 30px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.aw-art-home-page-container05 {
+  display: flex;
+  margin-top: 1em;
+  align-items: flex-start;
+  margin-left: 5em;
+  margin-bottom: 1em;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-step06 {
+  width: 27em;
+  height: 25em;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #141414;
+}
+.aw-art-home-page-pasted-image06 {
+  width: 120px;
+}
+.aw-art-home-page-text041 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 30px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.aw-art-home-page-container06 {
+  display: flex;
+  margin-top: 1em;
+  align-items: flex-start;
+  margin-left: 5em;
+  margin-bottom: 1em;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-step07 {
+  width: 27em;
+  height: 25em;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #141414;
+}
+.aw-art-home-page-pasted-image07 {
+  width: 120px;
+  height: auto;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+}
+.aw-art-home-page-text044 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 30px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.aw-art-home-page-container07 {
+  display: flex;
+  margin-top: 1em;
+  align-items: flex-start;
+  margin-left: 5em;
+  margin-bottom: 1em;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-step08 {
+  width: 27em;
+  height: 25em;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #141414;
+}
+.aw-art-home-page-pasted-image08 {
+  width: 120px;
+}
+.aw-art-home-page-text047 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 30px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.aw-art-home-page-the-platform {
+  width: 100%;
+  height: 1537px;
+  display: flex;
+  margin-top: 7em;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("public/playground_assets/galaxycut-1600h.jpg");
+  background-position: center;
+}
+.aw-art-home-page-text050 {
+  color: var(--dl-color-awart-stronggrey);
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  font-family: Orbitron;
+  padding-top: 0px;
+  text-transform: uppercase;
+}
+.aw-art-home-page-text051 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-size: 75px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-text052 {
+  color: var(--dl-color-gray-white);
+  width: 63%;
+  margin: 0.5em;
+  font-size: 35px;
+  font-style: normal;
+  margin-top: 0px;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.aw-art-home-page-text054 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-text057 {
+  color: var(--dl-color-gray-white);
+  width: 63%;
+  margin: 0.5em;
+  font-size: 35px;
+  font-style: normal;
+  margin-top: 0px;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.aw-art-home-page-text058 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-text061 {
+  color: var(--dl-color-gray-white);
+  width: 63%;
+  margin: 0.5em;
+  font-size: 35px;
+  font-style: normal;
+  margin-top: 0px;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.aw-art-home-page-text065 {
+  color: var(--dl-color-gray-white);
+  width: 63%;
+  margin: 0.5em;
+  font-size: 35px;
+  font-style: normal;
+  margin-top: 0px;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.aw-art-home-page-text067 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-text069 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-text071 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-video {
+  width: 60%;
+  height: auto;
+  margin-top: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-hockey-emotion {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 995px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("public/playground_assets/homepagewebsite-1000h.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.aw-art-home-page-our-portfolio {
+  width: 100%;
+  height: 1509px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/galaxycutreverse-1600h.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.aw-art-home-page-container08 {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-container09 {
+  width: 100%;
+  margin: 2%2%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  align-items: flex-start;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  flex-direction: row;
+}
+.aw-art-home-page-features {
+  width: 50%;
+  display: flex;
+  max-width: auto;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aw-art-home-page-text074 {
+  color: var(--dl-color-awart-stronggrey);
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  font-family: Orbitron;
+  padding-top: 0px;
+  text-transform: uppercase;
+}
+.aw-art-home-page-text075 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-size: 75px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-text076 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-size: 35px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-text080 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-text083 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-size: 40px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  text-transform: uppercase;
+}
+.aw-art-home-page-features1 {
+  width: 47%;
+  display: flex;
+  max-width: auto;
+  align-self: center;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+}
+.aw-art-home-page-video1 {
+  width: 80%;
+  height: auto;
+}
+.aw-art-home-page-use-cases {
+  width: 100%;
+  height: 1591px;
+  display: flex;
+  margin-top: 7em;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/playground_assets/orionnebulacomplete-1600h.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.aw-art-home-page-text087 {
+  color: var(--dl-color-awart-stronggrey);
+  width: 80%;
+  font-size: 30px;
+  text-align: center;
+  font-family: Orbitron;
+  padding-top: 0px;
+  text-transform: uppercase;
+}
+.aw-art-home-page-text088 {
+  color: var(--dl-color-gray-white);
+  width: 80%;
+  font-size: 75px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-text092 {
+  color: var(--dl-color-gray-white);
+  width: 70%;
+  font-size: 35px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-text094 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-text096 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-text098 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-steps1 {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-container10 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-pasted-image09 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image10 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image11 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image12 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image13 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image14 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image15 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image16 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image17 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image18 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image19 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image20 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image21 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-pasted-image22 {
+  width: 130px;
+  margin-top: 4em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 4em;
+}
+.aw-art-home-page-text101 {
+  color: var(--dl-color-awart-stronggrey);
+  width: 80%;
+  font-size: 30px;
+  text-align: center;
+  font-family: Orbitron;
+  padding-top: 2em;
+  text-transform: uppercase;
+}
+.aw-art-home-page-roadmap {
+  width: 100%;
+  height: 3298px;
+  display: flex;
+  align-self: center;
+  margin-top: 7em;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/playground_assets/astronomy-3300h.jpg");
+  background-position: center;
+}
+.aw-art-home-page-text102 {
+  color: var(--dl-color-awart-stronggrey);
+  width: 80%;
+  font-size: 30px;
+  text-align: center;
+  font-family: Orbitron;
+  padding-top: 0px;
+  text-transform: uppercase;
+}
+.aw-art-home-page-text105 {
+  color: var(--dl-color-gray-white);
+  width: 80%;
+  font-size: 75px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-text106 {
+  color: var(--dl-color-gray-white);
+  width: 80%;
+  font-size: 35px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-container11 {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-top: 4.75em;
+  align-items: center;
+  margin-bottom: 4.75em;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-container12 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-pasted-image23 {
+  width: 320px;
+  height: 320px;
+}
+.aw-art-home-page-text107 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 0.75em;
+  font-family: Poppins;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.aw-art-home-page-container13 {
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 4em;
+  margin-bottom: 2em;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-text110 {
+  color: var(--dl-color-gray-white);
+  font-size: 75px;
+  font-style: normal;
+  text-align: left;
+  font-family: Orbitron;
+  font-weight: 700;
+}
+.aw-art-home-page-text111 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 35px;
+  font-style: normal;
+  margin-top: 0.75em;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.aw-art-home-page-container14 {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-top: 4.75em;
+  align-items: center;
+  margin-bottom: 4.75em;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-container15 {
+  width: 70%;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 4em;
+  margin-bottom: 2em;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-text114 {
+  color: var(--dl-color-gray-white);
+  font-size: 75px;
+  font-style: normal;
+  text-align: right;
+  font-family: Orbitron;
+  font-weight: 700;
+}
+.aw-art-home-page-text115 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 35px;
+  font-style: normal;
+  margin-top: 0.75em;
+  text-align: right;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.aw-art-home-page-container16 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-pasted-image24 {
+  width: 320px;
+  height: 320px;
+}
+.aw-art-home-page-text118 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 0.75em;
+  font-family: Poppins;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.aw-art-home-page-container17 {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-top: 4.75em;
+  align-items: center;
+  margin-bottom: 4.75em;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-container18 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-pasted-image25 {
+  width: 320px;
+  height: 320px;
+}
+.aw-art-home-page-text121 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 0.75em;
+  font-family: Poppins;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.aw-art-home-page-container19 {
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 4em;
+  margin-bottom: 2em;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-text124 {
+  color: var(--dl-color-gray-white);
+  font-size: 75px;
+  font-style: normal;
+  text-align: left;
+  font-family: Orbitron;
+  font-weight: 700;
+}
+.aw-art-home-page-text125 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 35px;
+  font-style: normal;
+  margin-top: 0.75em;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.aw-art-home-page-container20 {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-top: 4.75em;
+  align-items: center;
+  margin-bottom: 4.75em;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-container21 {
+  width: 70%;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 4em;
+  margin-bottom: 2em;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-text128 {
+  color: var(--dl-color-gray-white);
+  font-size: 75px;
+  font-style: normal;
+  text-align: right;
+  font-family: Orbitron;
+  font-weight: 700;
+}
+.aw-art-home-page-text129 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 35px;
+  font-style: normal;
+  margin-top: 0.75em;
+  text-align: right;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.aw-art-home-page-container22 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-pasted-image26 {
+  width: 320px;
+  height: 320px;
+}
+.aw-art-home-page-text132 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 0.75em;
+  font-family: Poppins;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.aw-art-home-page-container23 {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-top: 4.75em;
+  align-items: center;
+  margin-bottom: 4.75em;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-container24 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-pasted-image27 {
+  width: 320px;
+  height: 320px;
+}
+.aw-art-home-page-text135 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 0.75em;
+  font-family: Poppins;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.aw-art-home-page-container25 {
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 4em;
+  margin-bottom: 2em;
+  flex-direction: column;
+  justify-content: center;
+}
+.aw-art-home-page-text138 {
+  color: var(--dl-color-gray-white);
+  font-size: 75px;
+  font-style: normal;
+  text-align: left;
+  font-family: Orbitron;
+  font-weight: 700;
+}
+.aw-art-home-page-text139 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 35px;
+  font-style: normal;
+  margin-top: 0.75em;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.aw-art-home-page-community {
+  width: 100%;
+  height: 1299px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  background-size: auto;
+  justify-content: center;
+  background-image: url("public/playground_assets/orionnebulacut-1300h.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.aw-art-home-page-container26 {
+  width: 47%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-image3 {
+  width: 334px;
+  height: 334px;
+  object-fit: cover;
+}
+.aw-art-home-page-container27 {
+  width: 45%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.aw-art-home-page-features2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.aw-art-home-page-text142 {
+  color: var(--dl-color-awart-stronggrey);
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  font-family: Orbitron;
+  padding-top: 0px;
+  text-transform: uppercase;
+}
+.aw-art-home-page-text143 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-size: 75px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Orbitron;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aw-art-home-page-container28 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-link13 {
+  display: contents;
+}
+.aw-art-home-page-container29 {
+  width: 100%;
+  margin: 2%2%;
+  display: flex;
+  margin-top: 2%;
+  align-items: flex-start;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  flex-direction: row;
+  text-decoration: none;
+}
+.aw-art-home-page-step09 {
+  width: 100%;
+  height: 12em;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-awart-transparentbutton);
+}
+.aw-art-home-page-pasted-image28 {
+  width: 120px;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.aw-art-home-page-text144 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 35px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+}
+.aw-art-home-page-text145 {
+  color: var(--dl-color-gray-white);
+}
+.aw-art-home-page-text147 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-container30 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-link14 {
+  display: contents;
+}
+.aw-art-home-page-container31 {
+  width: 100%;
+  margin: 2%2%;
+  display: flex;
+  margin-top: 2%;
+  align-items: flex-start;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  flex-direction: row;
+  text-decoration: none;
+}
+.aw-art-home-page-step10 {
+  width: 100%;
+  height: 12em;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-awart-transparentbutton);
+}
+.aw-art-home-page-pasted-image29 {
+  width: 120px;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.aw-art-home-page-text149 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 35px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+}
+.aw-art-home-page-text150 {
+  color: var(--dl-color-gray-white);
+}
+.aw-art-home-page-text152 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-container32 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-link15 {
+  display: contents;
+}
+.aw-art-home-page-container33 {
+  width: 100%;
+  margin: 2%2%;
+  display: flex;
+  margin-top: 2%;
+  align-items: flex-start;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  flex-direction: row;
+  text-decoration: none;
+}
+.aw-art-home-page-step11 {
+  width: 100%;
+  height: 12em;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-awart-transparentbutton);
+}
+.aw-art-home-page-pasted-image30 {
+  width: 120px;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.aw-art-home-page-text154 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 35px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+}
+.aw-art-home-page-text155 {
+  color: var(--dl-color-gray-white);
+}
+.aw-art-home-page-text157 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-container34 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.aw-art-home-page-link16 {
+  display: contents;
+}
+.aw-art-home-page-container35 {
+  width: 100%;
+  margin: 2%2%;
+  display: flex;
+  margin-top: 2%;
+  align-items: flex-start;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  flex-direction: row;
+  text-decoration: none;
+}
+.aw-art-home-page-step12 {
+  width: 100%;
+  height: 12em;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-awart-transparentbutton);
+}
+.aw-art-home-page-pasted-image31 {
+  width: 120px;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.aw-art-home-page-text159 {
+  color: var(--dl-color-awart-middlegrey);
+  font-size: 35px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+}
+.aw-art-home-page-text160 {
+  color: var(--dl-color-gray-white);
+}
+.aw-art-home-page-text162 {
+  color: var(--dl-color-awart-red);
+}
+.aw-art-home-page-step13 {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.aw-art-home-page-container36 {
+  width: 100%;
+  margin: 2%2%;
+  display: flex;
+  align-self: center;
+  margin-top: 2%;
+  align-items: flex-start;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  flex-direction: row;
+}
+.aw-art-home-page-text164 {
+  color: var(--dl-color-awart-stronggrey);
+  width: 45%;
+  font-size: 30px;
+  align-self: center;
+  text-align: center;
+  font-family: Orbitron;
+  text-transform: uppercase;
+}
+.aw-art-home-page-icon-group1 {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.aw-art-home-page-link17 {
+  display: contents;
+}
+.aw-art-home-page-pasted-image32 {
+  width: 75px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-decoration: none;
+}
+.aw-art-home-page-link18 {
+  display: contents;
+}
+.aw-art-home-page-pasted-image33 {
+  width: 75px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-decoration: none;
+}
+.aw-art-home-page-link19 {
+  display: contents;
+}
+.aw-art-home-page-pasted-image34 {
+  width: 75px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-decoration: none;
+}
+.aw-art-home-page-link20 {
+  display: contents;
+}
+.aw-art-home-page-pasted-image35 {
+  width: 75px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-decoration: none;
+}
+.aw-art-home-page-link21 {
+  display: contents;
+}
+.aw-art-home-page-pasted-image36 {
+  width: 75px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-decoration: none;
+}
+.aw-art-home-page-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+.aw-art-home-page-text165 {
+  color: var(--dl-color-gray-white);
+  font-size: 25px;
+  text-align: center;
+  font-family: Poppins;
+}
+@media(max-width: 3200px) {
+  .aw-art-home-page-step {
+    left: 798px;
+  }
+  .aw-art-home-page-step01 {
+    left: 1016px;
+  }
+  .aw-art-home-page-step02 {
+    left: 1175px;
+    bottom: 439px;
+    position: absolute;
+  }
+  .aw-art-home-page-step03 {
+    left: 1016px;
+  }
+  .aw-art-home-page-step04 {
+    left: 798px;
+  }
+  .aw-art-home-page-the-platform {
+    height: 1057px;
+  }
+  .aw-art-home-page-text052 {
+    width: 73%;
+  }
+  .aw-art-home-page-text057 {
+    width: 73%;
+  }
+  .aw-art-home-page-text061 {
+    width: 73%;
+  }
+  .aw-art-home-page-text065 {
+    width: 73%;
+  }
+  .aw-art-home-page-container08 {
+    width: 100%;
+  }
+  .aw-art-home-page-video1 {
+    width: 480px;
+  }
+  .aw-art-home-page-steps1 {
+    width: 90%;
+  }
+  .aw-art-home-page-container11 {
+    width: 50%;
+  }
+  .aw-art-home-page-container14 {
+    width: 50%;
+  }
+  .aw-art-home-page-container17 {
+    width: 50%;
+  }
+  .aw-art-home-page-container20 {
+    width: 50%;
+  }
+  .aw-art-home-page-container23 {
+    width: 50%;
+  }
+  .aw-art-home-page-container27 {
+    margin-top: 2%2%;
+    margin-left: 2%2%;
+    margin-right: 2%2%;
+    margin-bottom: 2%2%;
+  }
+}
+@media(max-width: 1920px) {
+  .aw-art-home-page-logo {
+    width: 6rem;
+  }
+  .aw-art-home-page-link {
+    font-size: 16px;
+  }
+  .aw-art-home-page-link01 {
+    font-size: 16px;
+  }
+  .aw-art-home-page-link02 {
+    font-size: 16px;
+  }
+  .aw-art-home-page-link03 {
+    font-size: 16px;
+  }
+  .aw-art-home-page-link04 {
+    font-size: 16px;
+  }
+  .aw-art-home-page-link05 {
+    font-size: 16px;
+  }
+  .aw-art-home-page-link06 {
+    font-size: 16px;
+  }
+  .aw-art-home-page-text {
+    font-size: 20px;
+  }
+  .aw-art-home-page-image1 {
+    width: 44px;
+    height: 40px;
+  }
+  .aw-art-home-page-text001 {
+    font-size: 100px;
+    font-style: normal;
+    font-family: Orbitron;
+    font-weight: 700;
+  }
+  .aw-art-home-page-text002 {
+    color: var(--dl-color-gray-white);
+  }
+  .aw-art-home-page-text004 {
+    color: var(--dl-color-awart-red);
+  }
+  .aw-art-home-page-text007 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-text011 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-text012 {
+    font-size: 50px;
+  }
+  .aw-art-home-page-text016 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-container02 {
+    width: 75%;
+    height: 800px;
+  }
+  .aw-art-home-page-step {
+    top: var(--dl-space-space-halfunit);
+    left: -50px;
+    width: 12em;
+    height: 12em;
+  }
+  .aw-art-home-page-pasted-image {
+    width: 70px;
+  }
+  .aw-art-home-page-text023 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-step01 {
+    top: 150px;
+    left: 250px;
+    width: 12em;
+    height: 12em;
+  }
+  .aw-art-home-page-pasted-image01 {
+    width: 70px;
+  }
+  .aw-art-home-page-text026 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-step02 {
+    top: 300px;
+    left: 600px;
+    width: 12em;
+    bottom: 290px;
+    height: 12em;
+  }
+  .aw-art-home-page-pasted-image02 {
+    width: 70px;
+  }
+  .aw-art-home-page-text029 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-step03 {
+    top: 465px;
+    left: 250px;
+    width: 12em;
+    height: 12em;
+  }
+  .aw-art-home-page-pasted-image03 {
+    width: 70px;
+  }
+  .aw-art-home-page-text032 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-step04 {
+    top: 650px;
+    left: -50px;
+    width: 12em;
+    bottom: var(--dl-space-space-halfunit);
+    height: 12em;
+  }
+  .aw-art-home-page-pasted-image04 {
+    width: 70px;
+  }
+  .aw-art-home-page-text035 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-image2 {
+    width: 300px;
+    height: 300px;
+  }
+  .aw-art-home-page-step05 {
+    width: 17em;
+    height: 15em;
+  }
+  .aw-art-home-page-pasted-image05 {
+    width: 60px;
+  }
+  .aw-art-home-page-text038 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-step06 {
+    width: 17em;
+    height: 15em;
+  }
+  .aw-art-home-page-pasted-image06 {
+    width: 60px;
+  }
+  .aw-art-home-page-text041 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-step07 {
+    width: 17em;
+    height: 15em;
+  }
+  .aw-art-home-page-pasted-image07 {
+    width: 60px;
+  }
+  .aw-art-home-page-text044 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-step08 {
+    width: 17em;
+    height: 15em;
+  }
+  .aw-art-home-page-pasted-image08 {
+    width: 60px;
+  }
+  .aw-art-home-page-text047 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-the-platform {
+    height: 1174px;
+  }
+  .aw-art-home-page-text050 {
+    color: var(--dl-color-awart-stronggrey);
+    font-size: 30px;
+    font-family: Orbitron;
+    text-transform: uppercase;
+  }
+  .aw-art-home-page-text051 {
+    font-size: 50px;
+  }
+  .aw-art-home-page-text052 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-text057 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-text061 {
+    color: var(--dl-color-gray-white);
+    font-size: 25px;
+  }
+  .aw-art-home-page-text062 {
+    color: var(--dl-color-awart-red);
+  }
+  .aw-art-home-page-text064 {
+    color: var(--dl-color-awart-red);
+  }
+  .aw-art-home-page-text065 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-video {
+    width: 75%;
+  }
+  .aw-art-home-page-hockey-emotion {
+    height: 434px;
+  }
+  .aw-art-home-page-our-portfolio {
+    height: 876px;
+  }
+  .aw-art-home-page-text074 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-text075 {
+    font-size: 50px;
+  }
+  .aw-art-home-page-text076 {
+    color: var(--dl-color-gray-white);
+    font-size: 25px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+  .aw-art-home-page-text080 {
+    color: var(--dl-color-awart-red);
+  }
+  .aw-art-home-page-text083 {
+    font-size: 30px;
+  }
+  .aw-art-home-page-use-cases {
+    height: 1028px;
+  }
+  .aw-art-home-page-text087 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-text088 {
+    font-size: 50px;
+  }
+  .aw-art-home-page-text092 {
+    color: var(--dl-color-gray-white);
+    font-size: 25px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+  .aw-art-home-page-text094 {
+    color: var(--dl-color-awart-red);
+  }
+  .aw-art-home-page-text096 {
+    color: var(--dl-color-awart-red);
+  }
+  .aw-art-home-page-text098 {
+    color: var(--dl-color-awart-red);
+  }
+  .aw-art-home-page-pasted-image09 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image10 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image11 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image12 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image13 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image14 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image15 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image16 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image17 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image18 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image19 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image20 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image21 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-pasted-image22 {
+    width: 70px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .aw-art-home-page-text101 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-roadmap {
+    height: 2174px;
+  }
+  .aw-art-home-page-text102 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-text105 {
+    font-size: 50px;
+  }
+  .aw-art-home-page-text106 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-container11 {
+    width: 60%;
+  }
+  .aw-art-home-page-pasted-image23 {
+    width: 163px;
+    height: 163px;
+  }
+  .aw-art-home-page-text107 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-container13 {
+    width: 72%;
+  }
+  .aw-art-home-page-text110 {
+    font-size: 50px;
+  }
+  .aw-art-home-page-text111 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-container14 {
+    width: 60%;
+    justify-content: center;
+  }
+  .aw-art-home-page-container15 {
+    width: 72%;
+  }
+  .aw-art-home-page-text114 {
+    font-size: 50px;
+  }
+  .aw-art-home-page-text115 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-pasted-image24 {
+    width: 163px;
+    height: 163px;
+  }
+  .aw-art-home-page-text118 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-container17 {
+    width: 60%;
+    justify-content: center;
+  }
+  .aw-art-home-page-pasted-image25 {
+    width: 163px;
+    height: 163px;
+  }
+  .aw-art-home-page-text121 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-container19 {
+    width: 72%;
+  }
+  .aw-art-home-page-text124 {
+    font-size: 50px;
+  }
+  .aw-art-home-page-text125 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-container20 {
+    width: 60%;
+    justify-content: center;
+  }
+  .aw-art-home-page-container21 {
+    width: 72%;
+  }
+  .aw-art-home-page-text128 {
+    font-size: 50px;
+  }
+  .aw-art-home-page-text129 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-pasted-image26 {
+    width: 163px;
+    height: 163px;
+  }
+  .aw-art-home-page-text132 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-container23 {
+    width: 60%;
+    justify-content: center;
+  }
+  .aw-art-home-page-pasted-image27 {
+    width: 163px;
+    height: 163px;
+  }
+  .aw-art-home-page-text135 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-container25 {
+    width: 72%;
+  }
+  .aw-art-home-page-text138 {
+    font-size: 50px;
+  }
+  .aw-art-home-page-text139 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-community {
+    width: 100%;
+    height: 1096px;
+  }
+  .aw-art-home-page-text142 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-text143 {
+    font-size: 50px;
+  }
+  .aw-art-home-page-step09 {
+    height: 8em;
+  }
+  .aw-art-home-page-pasted-image28 {
+    width: 60px;
+  }
+  .aw-art-home-page-text144 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-step10 {
+    height: 8em;
+  }
+  .aw-art-home-page-pasted-image29 {
+    width: 60px;
+  }
+  .aw-art-home-page-text149 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-step11 {
+    height: 8em;
+  }
+  .aw-art-home-page-pasted-image30 {
+    width: 60px;
+  }
+  .aw-art-home-page-text154 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-step12 {
+    height: 8em;
+  }
+  .aw-art-home-page-pasted-image31 {
+    width: 60px;
+  }
+  .aw-art-home-page-text159 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-text164 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-pasted-image32 {
+    width: 50px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image33 {
+    width: 50px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image34 {
+    width: 50px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image35 {
+    width: 50px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image36 {
+    width: 50px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-text165 {
+    font-size: 16px;
+  }
+}
+@media(max-width: 1400px) {
+  .aw-art-home-page-link {
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+  .aw-art-home-page-link01 {
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+  .aw-art-home-page-link02 {
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+  .aw-art-home-page-link03 {
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+  .aw-art-home-page-link04 {
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+  .aw-art-home-page-link05 {
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+  .aw-art-home-page-link06 {
+    margin-left: 1.7em;
+  }
+  .aw-art-home-page-text011 {
+    width: 90%;
+  }
+  .aw-art-home-page-text012 {
+    width: 90%;
+  }
+  .aw-art-home-page-text016 {
+    width: 90%;
+  }
+  .aw-art-home-page-container02 {
+    width: 90%;
+  }
+  .aw-art-home-page-steps {
+    width: 100%;
+  }
+  .aw-art-home-page-container05 {
+    margin-left: 1.5em;
+  }
+  .aw-art-home-page-container06 {
+    margin-left: 1.5em;
+  }
+  .aw-art-home-page-container07 {
+    margin-left: 1.5em;
+  }
+  .aw-art-home-page-the-platform {
+    height: 971px;
+  }
+  .aw-art-home-page-text052 {
+    width: 83%;
+  }
+  .aw-art-home-page-text057 {
+    width: 83%;
+  }
+  .aw-art-home-page-text061 {
+    width: 83%;
+  }
+  .aw-art-home-page-text065 {
+    width: 83%;
+  }
+  .aw-art-home-page-hockey-emotion {
+    height: 358px;
+  }
+  .aw-art-home-page-our-portfolio {
+    height: 761px;
+  }
+  .aw-art-home-page-container08 {
+    width: 100%;
+  }
+  .aw-art-home-page-features {
+    width: 49%;
+  }
+  .aw-art-home-page-text092 {
+    width: 90%;
+  }
+  .aw-art-home-page-steps1 {
+    width: 100%;
+  }
+  .aw-art-home-page-pasted-image09 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image10 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image11 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image12 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image13 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image14 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image15 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image16 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image17 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image18 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image19 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image20 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image21 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-pasted-image22 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .aw-art-home-page-container11 {
+    width: 70%;
+  }
+  .aw-art-home-page-container13 {
+    width: 65%;
+  }
+  .aw-art-home-page-container14 {
+    width: 70%;
+  }
+  .aw-art-home-page-container15 {
+    width: 65%;
+  }
+  .aw-art-home-page-container17 {
+    width: 70%;
+  }
+  .aw-art-home-page-container19 {
+    width: 65%;
+  }
+  .aw-art-home-page-container20 {
+    width: 70%;
+  }
+  .aw-art-home-page-container21 {
+    width: 65%;
+  }
+  .aw-art-home-page-container23 {
+    width: 70%;
+  }
+  .aw-art-home-page-container25 {
+    width: 65%;
+  }
+  .aw-art-home-page-community {
+    background-position: bottom;
+  }
+  .aw-art-home-page-container36 {
+    justify-content: center;
+  }
+  .aw-art-home-page-text164 {
+    display: none;
+  }
+  .aw-art-home-page-icon-group1 {
+    justify-content: center;
+  }
+}
+@media(max-width: 991px) {
+  .aw-art-home-page-desktop-menu {
+    height: var(--dl-size-size-medium);
+    position: relative;
+  }
+  .aw-art-home-page-logo {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+  .aw-art-home-page-nav {
+    display: none;
+  }
+  .aw-art-home-page-link {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
+  .aw-art-home-page-link01 {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
+  .aw-art-home-page-link02 {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
+  .aw-art-home-page-link03 {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
+  .aw-art-home-page-link04 {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
+  .aw-art-home-page-link05 {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
+  .aw-art-home-page-link06 {
+    right: 0px;
+    margin: auto;
+    position: absolute;
+  }
+  .aw-art-home-page-text001 {
+    width: 100%;
+  }
+  .aw-art-home-page-text007 {
+    width: 100%;
+  }
+  .aw-art-home-page-container02 {
+    width: 100%;
+  }
+  .aw-art-home-page-container04 {
+    margin-left: 1.5em;
+  }
+  .aw-art-home-page-container05 {
+    margin-left: 1.5em;
+  }
+  .aw-art-home-page-container06 {
+    margin-left: 1.5em;
+  }
+  .aw-art-home-page-container07 {
+    margin-left: 1.5em;
+  }
+  .aw-art-home-page-the-platform {
+    height: 788px;
+  }
+  .aw-art-home-page-our-portfolio {
+    height: 1091px;
+  }
+  .aw-art-home-page-container09 {
+    justify-content: center;
+  }
+  .aw-art-home-page-features {
+    width: 100%;
+  }
+  .aw-art-home-page-text076 {
+    margin-bottom: 0px;
+  }
+  .aw-art-home-page-features1 {
+    margin-left: 0px;
+  }
+  .aw-art-home-page-video1 {
+    width: 125%;
+  }
+  .aw-art-home-page-pasted-image09 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image10 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image11 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image12 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image13 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image14 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image15 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image16 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image17 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image18 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image19 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image20 {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image21 {
+    display: none;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-pasted-image22 {
+    display: none;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .aw-art-home-page-text103 {
+    text-align: center;
+  }
+  .aw-art-home-page-container11 {
+    width: 90%;
+  }
+  .aw-art-home-page-container13 {
+    width: 65%;
+  }
+  .aw-art-home-page-container14 {
+    width: 90%;
+  }
+  .aw-art-home-page-container15 {
+    width: 65%;
+  }
+  .aw-art-home-page-container17 {
+    width: 90%;
+  }
+  .aw-art-home-page-container19 {
+    width: 65%;
+  }
+  .aw-art-home-page-container20 {
+    width: 90%;
+  }
+  .aw-art-home-page-container21 {
+    width: 65%;
+  }
+  .aw-art-home-page-container23 {
+    width: 90%;
+  }
+  .aw-art-home-page-container25 {
+    width: 65%;
+  }
+  .aw-art-home-page-container26 {
+    display: none;
+  }
+  .aw-art-home-page-container27 {
+    width: 80%;
+  }
+  .aw-art-home-page-container29 {
+    margin: 1%;
+  }
+  .aw-art-home-page-container31 {
+    margin: 1%;
+  }
+  .aw-art-home-page-container33 {
+    margin: 1%;
+  }
+  .aw-art-home-page-container35 {
+    margin: 1%;
+  }
+  .aw-art-home-page-text164 {
+    display: flex;
+  }
+}
+@media(max-width: 767px) {
+  .aw-art-home-page-btn-group {
+    display: none;
+  }
+  .aw-art-home-page-burger-menu {
+    display: flex;
+  }
+  .aw-art-home-page-nav1 {
+    display: none;
+  }
+  .aw-art-home-page-link07 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  .aw-art-home-page-link08 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  .aw-art-home-page-link09 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  .aw-art-home-page-link10 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  .aw-art-home-page-link11 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  .aw-art-home-page-link12 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  .aw-art-home-page-icon-group {
+    display: none;
+  }
+  .aw-art-home-page-icon02 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-icon04 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-icon06 {
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-hero {
+    height: 738px;
+  }
+  .aw-art-home-page-title-subtitle {
+    height: 738px;
+  }
+  .aw-art-home-page-text {
+    font-size: 12px;
+  }
+  .aw-art-home-page-image1 {
+    width: 30px;
+    height: 26px;
+  }
+  .aw-art-home-page-title-subtitle1 {
+    height: 738px;
+  }
+  .aw-art-home-page-text001 {
+    font-size: 40px;
+    letter-spacing: -0.9;
+  }
+  .aw-art-home-page-text007 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-text011 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-text012 {
+    font-size: 30px;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-text016 {
+    font-size: 15px;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-container02 {
+    display: none;
+  }
+  .aw-art-home-page-steps {
+    width: 100%;
+  }
+  .aw-art-home-page-container04 {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+  }
+  .aw-art-home-page-step05 {
+    width: 12em;
+    height: 10em;
+  }
+  .aw-art-home-page-pasted-image05 {
+    width: 40px;
+  }
+  .aw-art-home-page-text038 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-container05 {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+  }
+  .aw-art-home-page-step06 {
+    width: 12em;
+    height: 10em;
+  }
+  .aw-art-home-page-pasted-image06 {
+    width: 40px;
+  }
+  .aw-art-home-page-text041 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-container06 {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+  }
+  .aw-art-home-page-step07 {
+    width: 12em;
+    height: 10em;
+  }
+  .aw-art-home-page-pasted-image07 {
+    width: 40px;
+  }
+  .aw-art-home-page-text044 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-container07 {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+  }
+  .aw-art-home-page-step08 {
+    width: 12em;
+    height: 10em;
+  }
+  .aw-art-home-page-pasted-image08 {
+    width: 40px;
+  }
+  .aw-art-home-page-text047 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-the-platform {
+    height: 631px;
+  }
+  .aw-art-home-page-text050 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-text051 {
+    font-size: 30px;
+  }
+  .aw-art-home-page-text052 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-text057 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-text061 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-text065 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-video {
+    width: 90%;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-hockey-emotion {
+    height: 283px;
+  }
+  .aw-art-home-page-our-portfolio {
+    height: 771px;
+  }
+  .aw-art-home-page-container08 {
+    height: 900px;
+  }
+  .aw-art-home-page-text074 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-text075 {
+    font-size: 30px;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-text076 {
+    font-size: 15px;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-text083 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-video1 {
+    width: 130%;
+  }
+  .aw-art-home-page-use-cases {
+    height: 634px;
+  }
+  .aw-art-home-page-text087 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-text088 {
+    font-size: 30px;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-text092 {
+    font-size: 15px;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-container10 {
+    width: 80%;
+  }
+  .aw-art-home-page-pasted-image09 {
+    width: 50px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image10 {
+    width: 50px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image11 {
+    width: 50px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image12 {
+    width: 50px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image13 {
+    width: 50px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image14 {
+    width: 50px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image15 {
+    width: 50px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image16 {
+    width: 50px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image17 {
+    width: 50px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image18 {
+    width: 50px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image19 {
+    width: 60px;
+    display: flex;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image20 {
+    width: 60px;
+    display: flex;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image21 {
+    width: 60px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-pasted-image22 {
+    width: 60px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-text101 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-roadmap {
+    height: 1438px;
+  }
+  .aw-art-home-page-text102 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-text105 {
+    font-size: 30px;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-text106 {
+    font-size: 15px;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-container11 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  .aw-art-home-page-pasted-image23 {
+    width: 100px;
+    height: 100px;
+  }
+  .aw-art-home-page-text107 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-container13 {
+    width: 55%;
+    margin-left: 1em;
+  }
+  .aw-art-home-page-text110 {
+    font-size: 30px;
+  }
+  .aw-art-home-page-text111 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-container14 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  .aw-art-home-page-container15 {
+    width: 55%;
+    margin-right: 1em;
+    margin-bottom: 0px;
+  }
+  .aw-art-home-page-text114 {
+    font-size: 30px;
+  }
+  .aw-art-home-page-text115 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-pasted-image24 {
+    width: 100px;
+    height: 100px;
+  }
+  .aw-art-home-page-text118 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-container17 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  .aw-art-home-page-pasted-image25 {
+    width: 100px;
+    height: 100px;
+  }
+  .aw-art-home-page-text121 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-container19 {
+    width: 55%;
+    margin-left: 1em;
+  }
+  .aw-art-home-page-text124 {
+    font-size: 30px;
+  }
+  .aw-art-home-page-text125 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-container20 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  .aw-art-home-page-container21 {
+    width: 55%;
+    margin-right: 1em;
+    margin-bottom: 0px;
+  }
+  .aw-art-home-page-text128 {
+    font-size: 30px;
+  }
+  .aw-art-home-page-text129 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-pasted-image26 {
+    width: 100px;
+    height: 100px;
+  }
+  .aw-art-home-page-text132 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-container23 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  .aw-art-home-page-pasted-image27 {
+    width: 100px;
+    height: 100px;
+  }
+  .aw-art-home-page-text135 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-container25 {
+    width: 55%;
+    margin-left: 1em;
+  }
+  .aw-art-home-page-text138 {
+    font-size: 30px;
+  }
+  .aw-art-home-page-text139 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-community {
+    height: 1086px;
+  }
+  .aw-art-home-page-container27 {
+    width: 95%;
+  }
+  .aw-art-home-page-text142 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-text143 {
+    font-size: 30px;
+  }
+  .aw-art-home-page-step09 {
+    height: 6em;
+  }
+  .aw-art-home-page-pasted-image28 {
+    width: 50px;
+  }
+  .aw-art-home-page-text144 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-step10 {
+    height: 6em;
+  }
+  .aw-art-home-page-pasted-image29 {
+    width: 50px;
+  }
+  .aw-art-home-page-text149 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-step11 {
+    height: 6em;
+  }
+  .aw-art-home-page-pasted-image30 {
+    width: 50px;
+  }
+  .aw-art-home-page-text154 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-step12 {
+    height: 6em;
+  }
+  .aw-art-home-page-pasted-image31 {
+    width: 50px;
+  }
+  .aw-art-home-page-text159 {
+    font-size: 20px;
+  }
+  .aw-art-home-page-text164 {
+    display: none;
+  }
+  .aw-art-home-page-icon-group1 {
+    margin-top: 3em;
+  }
+  .aw-art-home-page-pasted-image32 {
+    width: 50px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .aw-art-home-page-pasted-image33 {
+    width: 50px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .aw-art-home-page-pasted-image34 {
+    width: 50px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .aw-art-home-page-pasted-image35 {
+    width: 50px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .aw-art-home-page-pasted-image36 {
+    width: 50px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
+@media(max-width: 479px) {
+  .aw-art-home-page-hero {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-title-subtitle {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-title-subtitle1 {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-our-mission {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-steps {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-container04 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container05 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container06 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container07 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-the-platform {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-hockey-emotion {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-our-portfolio {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-container09 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-features {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-features1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-steps1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-container12 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container13 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container15 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container16 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container18 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container19 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container21 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container22 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container24 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container25 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container26 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container27 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-features2 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .aw-art-home-page-container29 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container31 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container33 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container35 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-container36 {
+    flex-direction: column;
+  }
+  .aw-art-home-page-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .aw-art-home-page-text165 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 375px) {
+  .aw-art-home-page-logo {
+    display: none;
+  }
+  .aw-art-home-page-mobile-menu {
+    padding: 16px;
+    z-index: 100;
+  }
+  .aw-art-home-page-hero {
+    height: 557px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .aw-art-home-page-title-subtitle {
+    height: 557px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .aw-art-home-page-image1 {
+    width: 30px;
+    height: 26px;
+  }
+  .aw-art-home-page-title-subtitle1 {
+    height: 557px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .aw-art-home-page-container02 {
+    display: none;
+  }
+  .aw-art-home-page-text023 {
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-text026 {
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-text029 {
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-text032 {
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-text035 {
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-container04 {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+  }
+  .aw-art-home-page-step05 {
+    width: 20em;
+    height: 7em;
+  }
+  .aw-art-home-page-pasted-image05 {
+    width: 40px;
+  }
+  .aw-art-home-page-text038 {
+    font-size: 15px;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-container05 {
+    margin-top: 0.5em;
+    margin-left: 0px;
+    margin-bottom: 0.5em;
+  }
+  .aw-art-home-page-step06 {
+    width: 20em;
+    height: 7em;
+  }
+  .aw-art-home-page-pasted-image06 {
+    width: 40px;
+  }
+  .aw-art-home-page-text041 {
+    font-size: 15px;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-container06 {
+    margin-top: 0.5em;
+    margin-left: 0px;
+    margin-bottom: 0.5em;
+  }
+  .aw-art-home-page-step07 {
+    width: 20em;
+    height: 7em;
+  }
+  .aw-art-home-page-pasted-image07 {
+    width: 40px;
+  }
+  .aw-art-home-page-text044 {
+    font-size: 15px;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-container07 {
+    margin-top: 0.5em;
+    margin-left: 0px;
+  }
+  .aw-art-home-page-step08 {
+    width: 20em;
+    height: 7em;
+  }
+  .aw-art-home-page-pasted-image08 {
+    width: 40px;
+  }
+  .aw-art-home-page-text047 {
+    font-size: 15px;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-the-platform {
+    height: 506px;
+  }
+  .aw-art-home-page-text050 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-text051 {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+    letter-spacing: -1.5px;
+  }
+  .aw-art-home-page-text052 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-text057 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-text061 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-text065 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-hockey-emotion {
+    height: 217px;
+  }
+  .aw-art-home-page-our-portfolio {
+    height: 655px;
+  }
+  .aw-art-home-page-container08 {
+    height: 970px;
+  }
+  .aw-art-home-page-text074 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-text075 {
+    letter-spacing: -1px;
+  }
+  .aw-art-home-page-text076 {
+    font-size: 15px;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-text083 {
+    font-size: 15px;
+  }
+  .aw-art-home-page-video1 {
+    width: 175%;
+  }
+  .aw-art-home-page-use-cases {
+    height: 739px;
+  }
+  .aw-art-home-page-text087 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-text092 {
+    font-size: 15px;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-pasted-image09 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image10 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image11 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image12 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image13 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image14 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image15 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image16 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image17 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image18 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image19 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image20 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image21 {
+    width: 50px;
+  }
+  .aw-art-home-page-pasted-image22 {
+    width: 50px;
+  }
+  .aw-art-home-page-text101 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-roadmap {
+    height: 1160px;
+  }
+  .aw-art-home-page-text102 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-text103 {
+    width: 100%;
+  }
+  .aw-art-home-page-container11 {
+    width: 95%;
+    margin-top: 2.25em;
+    margin-bottom: 2.25em;
+  }
+  .aw-art-home-page-pasted-image23 {
+    width: 80px;
+    height: 80px;
+  }
+  .aw-art-home-page-text107 {
+    font-size: 15px;
+    margin-top: 0.5em;
+  }
+  .aw-art-home-page-container13 {
+    width: 65%;
+    margin-left: 1em;
+    margin-bottom: 0px;
+  }
+  .aw-art-home-page-text110 {
+    font-size: 25px;
+    letter-spacing: 0;
+  }
+  .aw-art-home-page-text111 {
+    font-size: 15px;
+    margin-top: 0.5em;
+  }
+  .aw-art-home-page-container14 {
+    width: 95%;
+    margin-top: 2.25em;
+    margin-bottom: 2.25em;
+  }
+  .aw-art-home-page-container15 {
+    width: 65%;
+    margin-right: 1em;
+    margin-bottom: 0px;
+  }
+  .aw-art-home-page-text114 {
+    font-size: 25px;
+    letter-spacing: 0;
+  }
+  .aw-art-home-page-text115 {
+    font-size: 15px;
+    margin-top: 0.5em;
+  }
+  .aw-art-home-page-pasted-image24 {
+    width: 80px;
+    height: 80px;
+  }
+  .aw-art-home-page-text118 {
+    font-size: 15px;
+    margin-top: 0.5em;
+  }
+  .aw-art-home-page-container17 {
+    width: 95%;
+    margin-top: 2.25em;
+    margin-bottom: 2.25em;
+  }
+  .aw-art-home-page-pasted-image25 {
+    width: 80px;
+    height: 80px;
+  }
+  .aw-art-home-page-text121 {
+    font-size: 15px;
+    margin-top: 0.5em;
+  }
+  .aw-art-home-page-container19 {
+    width: 65%;
+    margin-left: 1em;
+    margin-bottom: 0px;
+  }
+  .aw-art-home-page-text124 {
+    font-size: 25px;
+    letter-spacing: 0;
+  }
+  .aw-art-home-page-text125 {
+    font-size: 15px;
+    margin-top: 0.5em;
+  }
+  .aw-art-home-page-container20 {
+    width: 95%;
+    margin-top: 2.25em;
+    margin-bottom: 2.25em;
+  }
+  .aw-art-home-page-container21 {
+    width: 65%;
+    margin-right: 1em;
+    margin-bottom: 0px;
+  }
+  .aw-art-home-page-text128 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-text129 {
+    font-size: 15px;
+    margin-top: 0.5em;
+  }
+  .aw-art-home-page-pasted-image26 {
+    width: 80px;
+    height: 80px;
+  }
+  .aw-art-home-page-text132 {
+    font-size: 15px;
+    margin-top: 0.5em;
+  }
+  .aw-art-home-page-container23 {
+    width: 95%;
+    margin-top: 2.25em;
+    margin-bottom: 2.25em;
+  }
+  .aw-art-home-page-pasted-image27 {
+    width: 80px;
+    height: 80px;
+  }
+  .aw-art-home-page-text135 {
+    font-size: 15px;
+    margin-top: 0.5em;
+  }
+  .aw-art-home-page-container25 {
+    width: 65%;
+    margin-left: 1em;
+    margin-bottom: 0px;
+  }
+  .aw-art-home-page-text138 {
+    font-size: 25px;
+  }
+  .aw-art-home-page-text139 {
+    font-size: 15px;
+    margin-top: 0.5em;
+  }
+  .aw-art-home-page-community {
+    height: 1024px;
+  }
+  .aw-art-home-page-text142 {
+    font-size: 12px;
+  }
+  .aw-art-home-page-text143 {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .aw-art-home-page-container28 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .aw-art-home-page-step09 {
+    height: 5em;
+  }
+  .aw-art-home-page-pasted-image28 {
+    width: 40px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-text144 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .aw-art-home-page-container30 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .aw-art-home-page-step10 {
+    height: 5em;
+  }
+  .aw-art-home-page-pasted-image29 {
+    width: 40px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-text149 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .aw-art-home-page-container32 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .aw-art-home-page-step11 {
+    height: 5em;
+  }
+  .aw-art-home-page-pasted-image30 {
+    width: 40px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-text154 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .aw-art-home-page-container34 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .aw-art-home-page-step12 {
+    height: 5em;
+  }
+  .aw-art-home-page-pasted-image31 {
+    width: 40px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .aw-art-home-page-text159 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .aw-art-home-page-step13 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+    justify-content: center;
+  }
+  .aw-art-home-page-icon-group1 {
+    margin-top: 1em;
+  }
+  .aw-art-home-page-pasted-image32 {
+    width: 35px;
+  }
+  .aw-art-home-page-pasted-image33 {
+    width: 35px;
+  }
+  .aw-art-home-page-pasted-image34 {
+    width: 35px;
+  }
+  .aw-art-home-page-pasted-image35 {
+    width: 35px;
+  }
+  .aw-art-home-page-pasted-image36 {
+    width: 35px;
+  }
+  .aw-art-home-page-text165 {
+    font-size: 10px;
+  }
+}
